@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
@@ -7,9 +7,12 @@ import { Observable } from 'rxjs';
 })
 export class PublicacionesService {
 
-  API_URL: string = "https://jsonplaceholder.typicode.com/posts"
+  API_URL: string = "https://jsonplaceholder.typicode.com/posts";
+
+  
 
   constructor(private httpClient: HttpClient) { }
+
 
   getPublicaciones(): Observable<any>{
     return this.httpClient.get(this.API_URL).pipe(res => res);
