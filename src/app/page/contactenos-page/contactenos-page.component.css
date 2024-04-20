@@ -1,0 +1,19 @@
+.fondo{
+    background-image: url(../../../assets/contactenos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border: none;
+    padding: 20px;
+}
+
+.formulario{
+    background-color: white;
+    height: 80%;
+    border-radius: 20px;
+    margin-right: auto;
+    padding: 20px;
+    /* margin: 20px; */
+    width: 800px;
+}
