@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { PublicacionesService } from '../../services/publicaciones.service';
-import { PublicacionesInterface } from '../../interfaces/publicaciones.interface';
+import { PublicacionesService } from '../../../services/publicaciones.service';
+import { PublicacionesInterface } from '../../../interfaces/publicaciones.interface';
 
 @Component({
   selector: 'app-publicaciones',

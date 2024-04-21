@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class PublicacionesService {
 
-  API_URL: string = "https://jsonplaceholder.typicode.com/posts";
+  API_URL: string = "https://jsonplaceholder.typicode.com/";
 
   
 
@@ -15,6 +15,12 @@ export class PublicacionesService {
 
 
   getPublicaciones(): Observable<any>{
-    return this.httpClient.get(this.API_URL).pipe(res => res);
+    return this.httpClient.get(this.API_URL+"posts").pipe(res => res);
   }
+
+  getUsers(): Observable<any>{
+    return this.httpClient.get(this.API_URL+"users").pipe(res => res);
+  }
+
+  
 }

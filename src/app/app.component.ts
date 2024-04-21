@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { PublicacionesComponent } from './components/publicaciones/publicaciones.component';
 import { BarranavegacionComponent } from './components/barranavegacion/barranavegacion.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, PublicacionesComponent,BarranavegacionComponent],
+  imports: [RouterOutlet,BarranavegacionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

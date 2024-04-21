@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 import { HomePageComponent } from './page/home-page/home-page.component';
 import { NosotrosPageComponent } from './page/nosotros-page/nosotros-page.component';
 import { ContactenosPageComponent } from './page/contactenos-page/contactenos-page.component';
-import { PublicacionesComponent } from './components/publicaciones/publicaciones.component';
+import { PublicacionesComponent } from './page/publicaciones-page/publicaciones/publicaciones.component';
 import { PublicacionesPageComponent } from './page/publicaciones-page/publicaciones-page.component';
 
 export const routes: Routes = [
