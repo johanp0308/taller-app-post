@@ -1,0 +1,24 @@
+<div class="publicacion-list">
+
+    <h2 class="titulo">
+        Publicaciones
+    </h2>
+
+    <div class="content">
+
+        @for(publicacion of publicacionList; track $index){
+            <div class="carta-publicacion">
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">{{getUserName(publicacion.userId)}}</h5>
+                      <p class="card-text">{{publicacion.body}}</p>
+                    </div>
+                </div>
+
+            </div>
+        }
+        
+    </div>
+
+</div>

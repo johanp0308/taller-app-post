@@ -1,0 +1,18 @@
+
+.content{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.carta-publicacion{
+    margin: 5px;
+
+}
+
+.titulo{
+    text-align: center;
+}
